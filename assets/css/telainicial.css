@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;600;700&display=swap');
+
+form {
+    border: 1px solid #713CE1; /* Estilo de borda desejado */
+    border-radius: 4px; /* Arredonda as bordas em 4 pixels */
+    padding: 20px; /* Espaçamento interno para a borda */
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #232527;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/assets/images/remodapt.png');
+    background-repeat: no-repeat;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: 20mm
+    pading:fit-content 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #713CE1;
+    color: #FFFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
